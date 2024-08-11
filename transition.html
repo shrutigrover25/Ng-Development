@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transitions</title>
+
+    <style>
+      h1 {
+        color: green;
+        text-align: center;
+      }
+
+      div.one {
+        height: 150px;
+        width: 150px;
+        border: 1px dashed black;
+        margin: auto;
+        background-color: blue;
+        transition: height 2s, width 2s, backgrounnd 2s;
+      }
+
+      div.one:hover {
+        height: 300px;
+        width: 300px;
+        background-color: brown;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>NavGurukul</h1>
+    <div class="one"></div>
+  </body>
+</html>

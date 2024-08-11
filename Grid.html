@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <style>
+      .grid-c {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: gray;
+        grid-gap: 10px;
+        padding: 5px;
+      }
+
+      .grid-c > div {
+        background-color: aqua;
+        border: 1px solid black;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      .Item1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+
+      .Item3 {
+        grid-row-start: 2;
+        grid-row-end: 5;
+      }
+
+      h1 {
+        color: green;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>NAVGURUKUL</h1>
+    <div class="grid-c">
+      <div class="Item1">Item-1</div>
+      <div class="Item">Item-2</div>
+      <div class="Item3">Item-3</div>
+      <div class="Item">Item-4</div>
+      <div class="Item">Item-5</div>
+      <div class="Item">Item-6</div>
+      <div class="Item">Item-7</div>
+      <div class="Item">Item-8</div>
+      <div class="Item">Item-9</div>
+    </div>
+  </body>
+</html>

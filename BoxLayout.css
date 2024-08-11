@@ -1,0 +1,41 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 400px;
+}
+
+.b {
+  background-color: azure;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 8px;
+}
+
+.BOX1 {
+  background-color: blue;
+}
+
+.BOX2 {
+  background-color: burlywood;
+}
+
+.BOX3 {
+  background-color: blueviolet;
+}
+
+.BOX4 {
+  background-color: cadetblue;
+}

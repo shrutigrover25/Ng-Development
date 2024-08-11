@@ -1,12 +1,36 @@
-#One {
-  background-color: black;
-  color: yellow;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: grey;
+  padding: 5px;
 }
 
-.List-Item {
-  padding: 10px;
+.grid-container > div {
+  background-color: rgb(180, 179, 177);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 
-p {
+.Item-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.Item-3 {
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+.grid-Item {
+  background-color: aqua;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+}
+
+h1 {
   color: green;
+  text-align: center;
 }

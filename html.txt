@@ -364,6 +364,213 @@ CSS LISTS
 
 
 
+CSS BOX MODEL :
+
+Box model is container that contains various properties like border, margins, padding and the content itsef.
+
+1. Content : Actual Data in the text 
+2. Padding : It is used to create a space around the element inside any defined border 
+3. Border: It is used to cover the content & any padding 
+4. Margin : It is used to create a space around the element i.e around the border are
+
+p{
+    width:
+    height:
+    margin:
+    border:
+    padding :
+
+
+
+}
+
+-----------------------------------Margin Property-------------------------------
+|BORDER
+|-------------------------PADDING PROPERTY ----------------------------------
+|                                     CONTENT                                |
+|-----------------------------------------------------------------------------
+|-------------------------------------------------------------------------------------
+Border
+Padding
+Content 
+
+Total Width : width+left padding+ right padding +left border+ right border
+
+Total Height : height+top padding+bottom padding + top border+ bottom border
+
+
+
+GRID layout
+
+Current Active Properties :
+
+grid-template-columns : auto 
+
+.class{
+    display:grid
+}
+
+Grid Layout Properties :
+
+column-gap 
+gap
+grid
+grid-area 
+grid-template-rows
+grid-template-columne 
+grid-template-areas
+grid-template 
+grid-row-start 
+grid-row-gap 
+grid-row-emd
+grid-row
+grid-column-start
+grid-column-end 
+grid-column 
+
+
+FlexBox:
+
+Axis: 
+Main Axis : flex-direction
+Cross Axis
+
+Main-Axis :
+
+Flex Direction: row, row-reverse, column, column-reverse
+
+Main Axis:
+
+Main start
+Main size
+Main end
+
+CROSS AXIS:
+Cross start
+cross end
+cross size
+
+l->r --> row
+r->l --> row-reverse
+t-b-->column
+b-->t --> column-reverse
+
+
+TRANSITIONS :
+
+1. transitio-property 
+2. transition-duration 
+3. transition-timing-function
+4. transition-delay 
+
+
+transition-property:
+
+none : 
+all : 
+property1, property2,....
+
+
+transition-duration:
+
+time(s or ms)
+
+transition-timing-function : ease, ease-in, ease-out, linear, step-start, step-end
+
+
+4. transition-delay: time 
+
+
+Shorthand property : (property_name)|(duration)|(timing)|(delay)
+
+CSS ANIMATIONS :
+
+change the behaviour of various elements in a web page.
+They are defined using the @keyframes rule --> sepecifies the animation properties of an element
+@keyframes: specify the animation rule
+animation-name: name 
+animation-duration : time dusration it takes to complete one cycle
+animation-timing-function: linear, ease-in, ease-out 
+animation-delay : delay of the start of an element
+animation=iteration-count: number of times the animation will be repeated 
+animation-direction : direction of the animation 
+animation-fill-mode: how styles are applied before and after the animation 
+animation-play-state: whether the animation is running or is paused 
+
+
+@keyframes animation-name{
+    from{
+
+    }
+
+    to{
+
+    }
+}
+
+SHADOW EFFECTS :
+
+1. text-shadow
+2. box-shadow
+
+CSS TEXT SHADOW 
+
+
+GRID --? faciliated by rows and columns that simplifies the design of the webpage. 
+column-gap -- used to specify the amount of gap between the columns in which a text is divided using the column-count property
+
+gap : used to set the spacing between rows and columns 
+
+grid: it offers the grid based system. 
+
+grid-area: used to set the grid item size and location in grid 
+
+grid-auto-column : 
+
+grid-auto-flow: 
+
+grid-auto-rows: 
+
+
+grid-column: 
+
+grid-column-start 
+grif-column-end 
+
+grid-row-start
+grid-row-end 
+
+
+1. content > 
+2. padding  --sorrounds the center area, space within the box 
+3. border -- lies betweeb padding nd margin 
+4. margin --> separates the element from different elements 
+
+
+CSS VARIABLES :
+
+CUSTOM PROPERTIES THAT ARE USED TO STORE REUSABLE VALUES IN CSS DOCUMENTS. 
+
+DEFINED WITH TWO DASHES (--), THESE VARIABLES ENHANCE THE FUNCTIONALITY AND READABLILITY. 
+
+SYNTAX:
+
+var (-- custom-name, value);
+
+
+var function: take the values of the variables in css
+
+var() --> accepts two parameter:
+
+--custom-name : 
+value: 
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+flex-r {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text {
+  background-color: aliceblue;
+  max-width: 400px;
+  min-height: 500px;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.Picture {
+  margin-bottom: 20px;
+}
+
+.Picture span,
+.Picture span i {
+  color: brown;
+}
+
+.text h1 {
+  font-size: 25px;
+}
+
+.text p {
+  font-size: 15px;
+  color: blueviolet;
+}
+
+form {
+  align-items: flext start important;
+  width: 100;
+  margin-top: 15px;
+}
+
+.input-box {
+  margin: 10px 0px;
+  width: 100%;
+}
+.label {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 3px;
+}
+
+.input {
+  background-color: aquamarine;
+  padding: 0px 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  background-color: aqua;
+  flex: 1;
+}
+
+.input i {
+  color: blue;
+}
+
+.check span {
+  color: green;
+  font-size: 15px;
+  font-weight: 10;
+  margin-left: 5px;
+}
+
+.btn {
+  color: gray;
+  border-radius: 30px;
+  padding: 10px 15px;
+  background-color: aqua;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: medium;
+  transition: all 5s linear;
+}
+
+.btn:hover {
+  text-shadow: 1px red;
+  transform: translateY(-2px);
+}
+
+.extra-line {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.extra-line a {
+  color: blue;
+}
