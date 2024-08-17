@@ -1,0 +1,249 @@
+JavaScript Loops 
+
+Repetitions made easy 
+
+
+1. for Loops
+2. do while 
+3. while loop 
+4. for in loop 
+5. for of loop 
+
+
+
+While Loop --> exceutes a block of statement as long as the specific condition is true. 
+
+
+while(condition){
+    // code to be executed
+}
+
+
+Do While Loop --> block of code inside the loop will be exceuted atleast once
+
+do {
+
+} while(condition)
+
+
+While Loop         do While loop 
+
+
+while loop --> 1. it is the entry condition looping structure 
+2. number of iterations depends on the condition mentioned in the while loop 
+3. the block control condition is available at the starting of the code 
+
+
+Do While Loop 
+1. It is an exit condition structure 
+2. There will be min imum of 1 iteration 
+3. The block control condition is available at the endpoint of the loop 
+
+
+FOR LOOPS :
+It is a control flow statement that allows code to be executed repeatedly based on the condition. 
+3 parts 
+
+1. initialization 
+2. condition 
+3. Increment/decrement 
+
+
+
+for(statement-1; statement-2, statement-3){
+// code 
+}
+
+
+let x;
+
+for(let x=2;x<=4;x++){
+    console.log(x);
+}
+
+
+FOR IN LOOP --> iterates over the enumerable properties of an object, allows us to access each key or property name in turn. 
+
+traverse object properties. 
+
+It can be used iwth arrays 
+
+Synatx:
+
+for(let i in obj1){
+    // print all they keys 
+
+    console.log(i);
+}
+
+
+Some important points :
+
+1. over non-array objects 
+2. The order in which properties are iterated may not match thr properties that are defined in the object. 
+
+
+
+
+FOR OF LOOP -->
+
+It iterates over the values of an iterable object, which id different from the for..in loop. 
+
+for(variable of iterable){
+    // block to be exceuted
+}
+
+
+Parameters :
+
+1. Variable  --> Represents the current value of each iteration
+2. Iterable --> Any Object that can be iterated over 
+
+
+TERNARY OPERATOR
+
+It is the shortcut for writing if-else conditions 
+Known as the conditional operator because it works on the condition onlt. 
+
+allows you to decide between two values depending on whether a condition is true or false. 
+
+
+condition : A statement that returns true or false 
+
+value : if true : 
+if false:
+
+condition ? trueExpression :falseExpression 
+
+
+1. Create a nested ternary Operator Function to check for the age :
+adult, teenager, senior citizen
+
+
+JavaScript Objects :
+
+1. Arrays 
+2. Strings 
+3. Date 
+4. Numbers 
+5. Math 
+6. Object 
+7. Boolean 
+8. JSON
+9. MAP 
+10. set
+
+
+1. Arrays :
+
+That is used to store multiple values in a single variable. 
+It can hold various Data types and allows for dynamic resizing 
+
+Elements are accessed by their index, starts from 0
+
+
+How to create an array in JavaScriptt
+
+
+const arrayName=[value1, value2,....];
+
+Using new Keyword
+
+let arrayName=new Array();
+
+
+Basic Operations in an array :
+
+1. accessing the element in the array 
+Using the Index 
+
+2. accessing the first element
+
+3. aceessing the last element
+
+4. Modifying the array elements
+
+5. Adding elements to an array 
+
+6. Removing elements from an array 
+
+7. Array Length 
+
+8. Increase and decrease of the array Length
+
+9. Iterating through the array elements
+
+10. Array Concatenation 
+
+11. Conversion of an array to a string 
+
+12. CHeck the type of an array 
+
+
+Difference between an object and an array :
+
+1. arrays :
+
+numeric indexes 
+ordered  ollection 
+sorting, lists, 
+
+accessed by index 
+iterated with loops 
+dynamic 
+
+2. Objects 
+
+named keys (strings or symbols)
+unordered  ollection 
+storing data in form of key-value pair 
+
+accessed by key 
+iterated using object.keys
+dynamic
+
+
+DATE OBJECT 
+
+1/ creating a date Object 
+
+new Date();
+new Date(value);
+new Date(dateString)
+new Date(years, months, days, hours, minutes, seconds);
+
+
+// Write a code that will convert the date into a slash format and also it shoud print the date 12 days ahead of the current date
+
+
+MATH OBJECT 
+
+USED TO PERFORM THE MATHEMATICALMOPERATIONS ON NUMBERS 
+ALL THE PROPERTIES OF MATHS ARE STATIC AND UNLIKE OTHER OBJECTS, IT DOES NOT HAVE A CONSTRUCTOR 
+
+
+STRINGS IN JAVASCRIPT 
+
+1. DEclaration of string 
+
+let str="Hello World"
+
+let str='Hello'
+
+let str=new String("Hello World);
+
+let str=''
+
+str.Length
+
+
+1. declare 3 strings with three different formats, and you have to find out the length of each string
+
+
+
+
+
+
+
+
+
