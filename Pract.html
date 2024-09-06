@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: "white";
+      }
+      .welcome {
+        display: inline;
+        padding-left: 100%;
+        font-size: 24px;
+        color: #333;
+        animation: we welcome 5s linear infinite,
+          reverseMarquee 5s linear infinite;
+      }
+      @keyframes welcome {
+        0% {
+          transform: translateX(100%);
+        }
+        50% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes reversewelcome {
+        0% {
+          transform: translateX(-100%);
+        }
+        50% {
+          transform: translateX(100%);
+        }
+      }
+    </style>
+  </head>
+  <body onload="hello(4)">
+    <p class="welcome">text</p>
+  </body>
+</html>

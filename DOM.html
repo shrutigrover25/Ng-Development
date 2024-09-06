@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM CLASS NAME</title>
+
+    <style></style>
+  </head>
+
+  <body>
+    <h1>NAVGURUKUL</h1>
+    <h2>GET CLASSNAME</h2>
+
+    <div>
+      <h4 class="example">DIV 1</h4>
+
+      <h4 class="yellowBorder">DIV 2</h4>
+
+      <h4 class="greenBorder">DIV 3</h4>
+
+      <h4 class="example">DIV 4</h4>
+    </div>
+
+    <script>
+      document.getElementsByClassName("greenBorder")[0].style.border =
+        "10px solid green";
+
+      document.getElementsByClassName("yellowBorder")[0].style.border =
+        "10px solid yellow";
+    </script>
+  </body>
+</html>

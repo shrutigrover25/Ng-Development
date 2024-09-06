@@ -1,0 +1,107 @@
+JS EVENTS -->actions or occurences thtat happen in the browser. this can be triggered by various user actions or by the browser itself. 
+
+Common events --> mouse clicks, keyboard presses, page loads, form submissions 
+
+SYNTAX :
+
+<html-element event-type="Action to be performed"></html-element>
+
+
+Common JS EVENTS :
+
+1. onclick 
+2. onmouseover 
+3. onmouseout
+4. onkeydown 
+5. onkeyup 
+6. onload 
+7. onchange 
+8. onsubmit 
+9. onfocus 
+10. onblur 
+
+
+#onclick event :
+
+When the user clicks an element, then the onclick event occurs 
+
+<element onclick="my-script>
+
+JS : object.onclick=function()
+{myscript}
+
+#Using the add Event Listener Method: 
+
+object.addEventListener("click",myscript);
+
+
+#onload event :
+
+it occurs when the object has been loaded. 
+mostly used in <body> tag</body>
+used to check user's browser history and version of the webpage based on information.
+
+Syntax:
+
+<element onload=scriptfile>
+
+</element>
+
+OnBlur Event :
+
+occurs when the object loses focus. 
+The onblur event is focusses in the opposite of onFocus event. 
+
+Form Validations 
+
+Syntax:
+
+<element onblur="myscript">
+
+</element>
+
+
+FOCUS EVENT :
+
+This contains the events that are related to focus. 
+Includes events like Focus in, Focus out, blur. 
+
+Properties :
+
+relatedTarget: it returns the elements that triggered a focus or blur event, 
+This value is default set to null due to security reasons. 
+
+It is read only property. 
+
+
+onScroll --> Implement onScroll Event 
+
+CSS OVERFLOW 
+
+HOISTING :
+
+it is the behaviour where the interpreter moves functions and variable declarations to the top of 
+their respective scope before executing the code. 
+
+This allows variables to be accesses before declaration, aiding in more flexible coding practices. 
+
+Features of Hoisting :
+
+1. Declarations are hoistedm not initialisations 
+2. allows calling functions before their declarations 
+3. all variables and function declarations are processed before any code exceution 
+4. undeclared variables are implicitly created as gl;obal variables when value is assigned. 
+
+Variable LifeCycle 
+
+let a 
+Declaration 
+a=100;
+// Assignment 
+
+console.log(a);
+
+
+
+
+

@@ -1,0 +1,51 @@
+// // A regular expression is a character sequence defining a pattern search 
+
+// // It can be a simple character as well as complicated pattern 
+
+// // SYNTAX : 
+// /pattern/modifiers
+
+// //Example
+
+// let patt=/NavGurukul/i
+
+
+Regular Expression Modifiers
+
+// used to perform multiline searches which can also be set to case insensitive matching
+
+// g --> finding the character globally 
+//i --> finding the character with in-sensitive matching 
+// m --> multiline matching 
+
+// Regular expression brackets can find characters in a specified range 
+
+/*
+
+[abc] --> find any of the characters inside the brackets 
+[^abc] --> Find any character not inside the brackets 
+[0-9] --> Find any digits between 0 to 9 
+[^0-9] -> find any digit not inside the brackets 
+[x|y] --> find any of the alternatives between x or y separated by |
+
+
+Regular Expression meta characters
+
+these are the characters with the special meaning 
+
+\. --> search single character except line terminator or newline 
+\w --> Find the word character from a to z or A to Z, 0-9
+\d --> Find a digit 
+\D --> searches non digit characters i.e all the characters except digit 
+\s --> Find a whitespace character 
+\S --> Find a non whitespace character 
+\b --> Finds the match at the beginning or at the end of the word 
+\B -->Find a match that is not present at the beginning or at the end of the word 
+\0 Find anull character
+\n --> find a newline character
+\f -->find a carriage return character
+\t --> find the tab character
+\v --> find the vertical tab character
+\uxxxx --> Find the unicode character 
+
+
