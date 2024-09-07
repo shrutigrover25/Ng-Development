@@ -48,4 +48,66 @@ these are the characters with the special meaning
 \v --> find the vertical tab character
 \uxxxx --> Find the unicode character 
 
+REGULAR EXPRESSION QUANTIFIERS 
+
+n+ --> match any string that contains at least one n
+n* --> match any string that contains zero or more occurences of n 
+n? --> match zero or one occurence of n 
+m{X} --> Find any match of any string that contain a sequence of m, X times 
+m{X,Y} --> Find the match of any string that contain a sequence of m, X TO Y times 
+m{X,}--> contains a sequence of M, atleaset X times 
+m$ --> string that contains m at the end of it 
+^m : Find the match of any string which contains m at the beginning of it 
+?!m : which is not followed by a specific string m 
+
+
+Regular Expression Object Properties 
+
+1. Constructor : Return the function that created the RegExp Object's prototype
+2. global --> specifies whether g modifier is set or not 
+3. ignorecase --> specifies whether the i modifier is set or not 
+4. lastindex : specify the index at which the start the next match 
+5. multline : m modifier is set or not 
+source : return the text of RegExp Pattern 
+
+
+Object Methods :
+
+compile() --> used to compile the regular expression
+exec()--> used to test for a match in a string 
+test () --> used to test a match in a string 
+toString() --> return the string value of the regular Expression
+
+// STRING METHODSB:
+
+search()
+replace()
+
+1. search() --> uses an expression to search for a match and returns the position for a match
+2. replace() --> returns a modified string where pattern is replaced
+
+
+[abc]--> used to search any characters between the brackets . the character inside the bracket can be a single character or a span
+of characters
+
+[A-Z] --> used to match any character from uppercase A to Z 
+[a-z] --> used to match any character from lowercase a to z 
+[A-z] --> uppercase A to lowercase z 
+[abc...] --> used to match any characters between the brackets 
+
+SYNTAX :
+/[abc]/
+
+new reGexp("[abc]")
+
+/\[abc]/global
+or 
+new RegExp("[abc]","g");
+
+
+
+
+
+
+
 

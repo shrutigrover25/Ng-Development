@@ -1,0 +1,15 @@
+Email Validations 
+
+Given an email Id amd the task is to validate the email Id is valid or not. 
+Validation of email id can be done using Regular expressions 
+
+Approach-1:
+
+RegExp: It checks for the valid characters in the email.(Numbers, alphabets, few special characters);
+It is allowing every special symbol in the email Id. (!,@,#,$,%)
+
+
+1. Implement a similar code that will validate the email Id;
+
+
+

@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>How to validate email</title>
+  </head>
+  <body style="text-align: center">
+    <h1 style="color: green">NavGurukul</h1>
+    <p id="ng" style="font-size: 15px; font-weight: bolder"></p>
+
+    <button onclick="ngfunc()">Click Here</button>
+
+    <p id="ng_dom" style="font-size: 24px; font-weight: bold; color: green"></p>
+
+    <script>
+      var up = document.getElementById("ng");
+      var d = document.getElementById("ng_dom");
+      var email = "NavGurukul@gmail@123.com";
+
+      up.innerHTML =
+        "Click on the buttonto check the" +
+        "Validity of the email Id <br>" +
+        email;
+
+      function isEmail(email) {
+        var regexp = /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/;
+
+        return regexp.test(String(email).toLowerCase());
+      }
+
+      function ngfunc() {
+        d.innerHTML = isEmail(email);
+      }
+    </script>
+  </body>
+</html>

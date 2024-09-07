@@ -1,0 +1,53 @@
+// An error is a action that os inaccurate or incorrect. 
+// There are three types pf errors in any programing language :
+
+1. Syntax error 
+2. Logical error 
+3. Runtime error 
+
+Syntax error : is an error in the sytax of a sequence of characters or tokens that is intended to be written in a particular programing
+language or it is alos a compile time error is the syntax is not correct. 
+
+<script type=text/Javascript>
+   
+   window.printme();
+
+   // A runtime error 
+</script>
+
+Logical error :
+
+it is most difficult error to be traced as it is the error on the logical part of the coding or the Logicalerror 
+is a bug in a program that causes it operate incorrectly. 
+
+Runtime Error:
+it occurs during the running of the program also known as exception
+
+
+Try catch method :
+
+JS uses the try catch method to handle the exceptions and it also uses the throw operator to hsndle the exception.
+try have the main code to run and in the catch block if any error is thrown by try block will be caught and catch
+will execute it. 
+Finally block always occur even if an error is thrown. 
+
+try{
+    [break;]
+}
+
+catch(exception e){
+    [break;]
+}
+
+Finally : 
+try{
+    [break;]
+}
+
+catch(exception e){
+    [break;]
+}
+
+Finally;
+
+

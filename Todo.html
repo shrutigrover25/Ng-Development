@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO LIST</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .container {
+        max-width: 400px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+      }
+
+      input,
+      button {
+        padding: 8px;
+        margin-right: 5px;
+      }
+
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      li {
+        margin: 5px 0;
+      }
+
+      .remove-btn {
+        margin-left: 10px;
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 4px 8px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>TO DO LIST</h2>
+      <input type="text" id="itemInput" placeholder="add a new task" />
+      <button onclick="addItem()">ADD</button>
+      <ul id="todolist"></ul>
+    </div>
+
+    <script>
+      function addItem() {
+        const input = document.getElementById("itemInput");
+        const todolist = document.getElementById("todolist");
+
+        if (input.value.trim() !== "") {
+          const li = document.createElement("li");
+          li.textContent = input.value;
+
+          const removebtn = document.createElement("button");
+          removebtn.textContent = "Remove";
+          removebtn.className = "remove-btn";
+          removebtn.onclick = function () {
+            li.remove();
+          };
+
+          li.appendChild(removebtn);
+          todolist.appendChild(li);
+
+          input.value = "";
+        }
+      }
+    </script>
+  </body>
+</html>
