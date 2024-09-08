@@ -48,6 +48,41 @@ catch(exception e){
     [break;]
 }
 
-Finally;
+Finally;//
+
+// FORM VALIDATION 
+
+
+It is the way to ensure that the data users enter into a form is correct before it gets submitted. 
+This help ensures that the things like email,password, and other important details are enteredproperly, making
+the user experience smoother and data accurate. 
+
+Steps for Form Validations :
+
+1. Data Retrieval :the first step is used to get the user's value enetered into the form fields. 
+this is done using documents.forms,RegForm 
+
+2. Data Validation :
+
+a. Name Validation : we check to make sure that the name field is not empty and does not contain any numbers. 
+b. Address Validation : this field is not empty. 
+c/ Email Validation: email field is not empty and that includes @ symbol. 
+d. password validation : password field is not emptyand password is atleast 6 characters long. 
+e. Course selection : Course has been selected from the drop down list. 
+
+
+3. Error Handling : if any of the checks fail, an alert message is used to shown to the user  telling 
+windows.alert, telling them what's wrong. 
+
+4. Submission Controls : if validation checks pass, functions will return true --> meaning form can be submitted. 
+if not, it will return false, stopping the form to get submitted . 
+
+5. Focus Alignment : 
+
+
+
+
+
+
 
 

@@ -5,24 +5,27 @@
   </head>
 
   <body>
-    <p id="ng">Click the Button</p>
-
-    <form>
-      <input type="button" value="Click here" onclick="first();" />
-    </form>
-
-    <script type="text/javascript">
-      function first() {
+    <script>
+      function First() {
         let a = 123;
-        let b = 145;
+        let b = 0;
 
         try {
-          document.getElementById("ng").innerHTML +=
-            "<br> Division of " + a + " by " + b + "=" + a / b;
+          if (b == 0) {
+            throw "Do not divide it by zero";
+          }
         } catch (e) {
-          alert(e.description);
+          document.getElementById("gfg").innerHTML += "<br" + e + "<br";
+        } finally {
+          document.getElementById("gfg").innerHTML +=
+            " Finally block will always execute";
         }
       }
     </script>
+
+    <p id="gfg">Click the GFG BUTTON TO SEE THE RESULTS</p>
+    <form>
+      <button type="button" value="click" onclick="First()"></button>
+    </form>
   </body>
 </html>
