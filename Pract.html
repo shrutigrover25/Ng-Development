@@ -1,43 +1,24 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>JS</title>
-    <style>
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-        background-color: "white";
-      }
-      .welcome {
-        display: inline;
-        padding-left: 100%;
-        font-size: 24px;
-        color: #333;
-        animation: we welcome 5s linear infinite,
-          reverseMarquee 5s linear infinite;
-      }
-      @keyframes welcome {
-        0% {
-          transform: translateX(100%);
-        }
-        50% {
-          transform: translateX(-100%);
-        }
-      }
-      @keyframes reversewelcome {
-        0% {
-          transform: translateX(-100%);
-        }
-        50% {
-          transform: translateX(100%);
-        }
-      }
-    </style>
+    <title>Document</title>
   </head>
-  <body onload="hello(4)">
-    <p class="welcome">text</p>
+  <body>
+    <button onclick="val=setTimeout(ng,2000)">PRESS ME</button>
+    <button onclick="clearTimeout(vsl)">ClearTime out</button>
+    <script>
+      function ng() {
+        alert("Welcome to NavGurukul");
+      }
+    </script>
   </body>
 </html>
+
+<!--If you want to stop this setTimeOut Execution -->
+<!-- clearTimeOut-->
+
+<!--Syntax : window.clearTimeout(value)
+parameter: value
+
+whose exceutio  needs to be stopped. 
+
+-->

@@ -102,6 +102,21 @@ a=100;
 console.log(a);
 
 
+// Create a form that will have only name, email and password and validae these fields.
 
 
+
+
+
+// this keyword 
+// strict mode 
+// set Timeot and set Interval 
+// typeof 
+// debugging 
+/. local storage
+// callback 
+// closures 
+// defer 
+// scope 
+// valid 
 

@@ -1,0 +1,43 @@
+THIS KEYWORD :
+REFERS TO THE OBJECT THAT IS CURRENTLY EXECUTING THE FUNCTION OR METHOD 
+IT'S VALUE IS DETERMINED BY HOW THE FUNCTION IS CALLED. 
+
+WHAT IS THIS ?
+refers to current object in the context. 
+it's value depends on how it is used. 
+it refers to the object. in global scope, refers to the global object. 
+
+1. when used within a method of an object, this points to an bject 
+2. when used by itself, this poinst to the global object 
+3. within a function, this typically points to the global object 
+4. under function, in a strict mode it becomes undefined
+5. During an event, this points to the element, that triggered the veent 
+6. call(), apply() and bind() can reassign this to any desired object. 
+
+
+1. Using this in a method 
+
+
+
+STRICT MODE :
+
+
+1. eliminates the silent errors 
+2. optimization 
+3. Future proofing 
+4. prevents unsafe actions 
+5. disables confusing features 
+6. security 
+
+HOW TO USE STRICT MODE :
+
+1. Global scope 
+2. Function Scope 
+
+USING STRICT MODE IN THE ENTIRE SCRIPT 
+
+'use strict'
+let v="strict mode script"
+
+
+
